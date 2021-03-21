@@ -6,7 +6,7 @@
 
 DOCKER: 
      <br> -https://www.freecodecamp.org/news/how-to-remove-images-in-docker/#:~:text=To%20remove%20the%20image%2C%20you,your%2Dimage%2Did%3E%20.
-      <br> -https://docs.docker.com/engine/reference/commandline/build/#:~:text=The%20docker%20build%20command%20builds,a%20file%20in%20the%20context.
+     <br>-https://docs.docker.com/engine/reference/commandline/build/#:~:text=The%20docker%20build%20command%20builds,a%20file%20in%20the%20context.
 
 Nginx: 
       <br> -https://wiki.alpinelinux.org/wiki/Nginx#Configuration
