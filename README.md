@@ -1,9 +1,7 @@
 # ft_service
 #This is a System Administration and Networking project.
 
-
-
-/******Ressources*****************/
+###Ressources
 DOCKER: https://www.freecodecamp.org/news/how-to-remove-images-in-docker/#:~:text=To%20remove%20the%20image%2C%20you,your%2Dimage%2Did%3E%20.
 Nginx: 
      -https://wiki.alpinelinux.org/wiki/Nginx#Configuration
