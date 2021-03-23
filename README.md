@@ -26,7 +26,9 @@ Why we use Kubernetes :
 if u want to take ur local application and release it to ur Users yo use a Web Server,
 <br>
 - Deployment The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it )
+
 <br>
+
 **Ressources**
 <br>
 ***DOCKER***
