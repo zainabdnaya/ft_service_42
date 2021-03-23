@@ -31,7 +31,7 @@ if u want to take ur local application and release it to ur Users yo use a Web S
 
 ## Ressources
 
-***DOCKER***
+***Docker***
  
      -https://www.freecodecamp.org/news/how-to-remove-images-in-docker/#:~:text=To%20remove%20the%20image%2C%20you,your%2Dimage%2Did%3E%20.
      -https://docs.docker.com/engine/reference/commandline/build/#:~:text=The%20docker%20build%20command%20builds,a%20file%20in%20the%20context.
