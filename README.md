@@ -10,9 +10,9 @@
 
 <p>
  
-     <br> -https://www.freecodecamp.org/news/how-to-remove-images-in-docker/#:~:text=To%20remove%20the%20image%2C%20you,your%2Dimage%2Did%3E%20.
-     <br> -https://docs.docker.com/engine/reference/commandline/build/#:~:text=The%20docker%20build%20command%20builds,a%20file%20in%20the%20context.
-     <br> -https://www.scalyr.com/blog/create-docker-image
+     -https://www.freecodecamp.org/news/how-to-remove-images-in-docker/#:~:text=To%20remove%20the%20image%2C%20you,your%2Dimage%2Did%3E%20.
+     -https://docs.docker.com/engine/reference/commandline/build/#:~:text=The%20docker%20build%20command%20builds,a%20file%20in%20the%20context.
+     -https://www.scalyr.com/blog/create-docker-image
     
 Nginx: 
       <br> -https://wiki.alpinelinux.org/wiki/Nginx#Configuration
