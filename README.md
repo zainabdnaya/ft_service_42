@@ -29,6 +29,10 @@
       
    <br>
    
+   ***Kubernetes***
+
+     -https://www.youtube.com/watch?v=X48VuDVv0do
+   
  ***Minikube*** 
  
     -https://sensu.io/blog/minikube-tutorial#:~:text=Minikube%20is%20a%20utility%20you,installation%20of%20full%2Dblown%20K8s
