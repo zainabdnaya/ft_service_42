@@ -69,6 +69,7 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
    ***Kubernetes***
 
      -https://www.youtube.com/watch?v=X48VuDVv0do
+     In French ==>https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
    
  ***Minikube*** 
  
