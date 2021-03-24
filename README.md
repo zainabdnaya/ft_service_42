@@ -24,7 +24,8 @@ Why we use Kubernetes :
 - Volumes it attaches physical storage in ur hard drive that storage can be in a local machine or remote storage  outside k8s
 if u want to take ur local application and release it to ur Users yo use a Web Server,
 <br>
-- Deployment The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it )
+- Deployment: is The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it 
+
 # what is Minikub ?! :thought_balloon:
 Minikube it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster)
 - It will create avirtual BOX on ur laptop.
