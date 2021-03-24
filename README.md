@@ -3,7 +3,7 @@
 
  ## sneak peek :monocle_face:
   > Docker + Kebernetes + load balancer + dockerfile +Nginx + worldpress + phpMyadmin + FTPS + Minikube
-  ## what is Docher ?! :thought_balloon:
+  ## what is Docher ?! :whale:
  Docker is software that allows users to run lightweight virtual machines. You can build Docker "containers" with a Dockerfile. A container is a single lightweight virtual machine running an os, with its own memory space and storage. It is created on an image, which is a template with preconfigured software. A container differs from a virtual machine because it uses the same kernel as the host computer, whereas a virtual machine has its own kernel. Containers are faster and lighter.
  ## what is kubernetes ?! :thinking:
 →Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications. groups containers that make up an application into logical units for easy management and discovery.
