@@ -15,6 +15,7 @@ Why we use Kubernetes :
 - High Availability "always running"
 - Scalability "high performance" + faster
 - Backup and restore.
+ <br>
 →In Kubernetes, you have:
 - Pod Smallest Unit in K8s, it creates a running env A pod is a running instance of a deployment, you can run a shell into it. It has its own IP       and its own memory space, Pods connect with each other using services.
  <br>
