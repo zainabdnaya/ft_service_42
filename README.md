@@ -26,7 +26,7 @@ if u want to take ur local application and release it to ur Users yo use a Web S
 <br>
 - Deployment: is The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it 
 
-# what is Minikub ?! :thought_balloon:
+## what is Minikub ?! :thought_balloon:
 Minikube it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster). <br>
 - It will create avirtual BOX on ur laptop.
 - Node Run in that  virtual Box <br>
@@ -37,6 +37,11 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
  - Kube-proxy :The last piece of the node puzzle is the kube-proxy. This runs on every node in the cluster and is responsible for local cluster networking. For example, it  makes sure each node gets its own unique IP address, and implements local IPTABLES or IPVS rules to handle routing and load-balancing of traffic on the Pod network.
  <br>
   :nerd_face: For Better Understanding + instaling minikube + use kubctl : https://www.youtube.com/watch?v=X48VuDVv0do
+ 
+ ## what's Load Blancer
+ ```
+ → Load balancing is the process of efficiently distributing network traffic among multiple backend services, and is a critical strategy for maximizing scalability and availability.
+ ```
  
 ## Ressources
 
