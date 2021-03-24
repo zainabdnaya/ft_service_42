@@ -6,5 +6,5 @@ spec:
   selector:
     app: nginx
   ports:
-  - port: 5000
+  - port: 80
     targetPort: 80
