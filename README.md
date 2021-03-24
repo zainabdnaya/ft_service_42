@@ -17,6 +17,7 @@ Why we use Kubernetes :
 - Backup and restore.
  <br>
 →In Kubernetes, you have:
+ <br>
 - Pod Smallest Unit in K8s, it creates a running env A pod is a running instance of a deployment, you can run a shell into it. It has its own IP       and its own memory space, Pods connect with each other using services.
  <br>
   - Services an object that links a deployment externally or to other containers. For example, a deployment that will link the IP 192.168.0.1 to the 10 Apache servers and pick the one that has the least workload.
