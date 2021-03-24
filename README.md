@@ -36,7 +36,7 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
 <br>
  - Kube-proxy :The last piece of the node puzzle is the kube-proxy. This runs on every node in the cluster and is responsible for local cluster networking. For example, it  makes sure each node gets its own unique IP address, and implements local IPTABLES or IPVS rules to handle routing and load-balancing of traffic on the Pod network.
  <br>
-  :nerd_face: For Better Understanding : https://www.youtube.com/watch?v=X48VuDVv0do
+  :nerd_face: For Better Understanding + instaling minikube + use kubctl : https://www.youtube.com/watch?v=X48VuDVv0do
  
 ## Ressources
 
