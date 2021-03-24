@@ -65,13 +65,15 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
      -https://codingwithmanny.medium.com/configure-self-signed-ssl-for-nginx-docker-from-a-scratch-7c2bcd5478c6
       
    <br>
-   
+
+    ***Minikube*** 
+ 
+    -https://sensu.io/blog/minikube-tutorial#:~:text=Minikube%20is%20a%20utility%20you,installation%20of%20full%2Dblown%20K8s
+    -https://upcloud.com/community/tutorials/deploy-kubernetes-dashboard
+
    ***Kubernetes***
 
      -https://www.youtube.com/watch?v=X48VuDVv0do
      In French ==>https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
    
- ***Minikube*** 
- 
-    -https://sensu.io/blog/minikube-tutorial#:~:text=Minikube%20is%20a%20utility%20you,installation%20of%20full%2Dblown%20K8s
-    -https://upcloud.com/community/tutorials/deploy-kubernetes-dashboard
+
