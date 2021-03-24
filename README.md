@@ -26,13 +26,16 @@ if u want to take ur local application and release it to ur Users yo use a Web S
 <br>
 - Deployment The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it )
 <br>
-
+# what is Docher ?! :thought_balloon:
+Minikude it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster)
+- It will create avirtual BOX on ur laptop.
+- Node Run in that  virtual Box <br>
+To Run  or to config that mini-cluster , You gonna need Kublet or what we call as a Comand line "Kubctl".
 **Kubelet**
-- The Kubelet is the star of the show on every node. It’s the main Kubernetes agent, and it runs on every node in the cluster. In fact, it’s common to use the terms node and kubelet interchangeably,When you join a new node to a cluster, the process installs kubelet onto the node. The kubelet is then responsible for registering the node with the cluster.<br>
+- The Kubelet is the star of the show on every node. It’s the main Kubernetes agent, and it runs on every node in the cluster. In fact, it’s common to use the terms node and kubelet interchang eably,When you join a new node to a cluster, the process installs kubelet onto the node. The kubelet is then responsible for registering the node with the cluster.<br>
 **Kube-proxy :**
    The last piece of the node puzzle is the kube-proxy. This runs on every node in the cluster and is responsible for local cluster networking. For example, it  makes sure each node gets its own unique IP address, and implements local IPTABLES or IPVS rules to handle routing and load-balancing of traffic on the Pod network.
-
-
+For Better Understanding : https://www.youtube.com/watch?v=X48VuDVv0do
 ## Ressources
 
 ***Docker***
