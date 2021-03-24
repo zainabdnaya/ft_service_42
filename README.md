@@ -27,10 +27,10 @@ if u want to take ur local application and release it to ur Users yo use a Web S
 - Deployment: is The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it 
 
 # what is Minikub ?! :thought_balloon:
-Minikube it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster)
+Minikube it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster). <br>
 - It will create avirtual BOX on ur laptop.
 - Node Run in that  virtual Box <br>
-To Run  or to config that mini-cluster , You gonna need Kublet or what we call as a Comand line "Kubctl".
+To Run  or to config that mini-cluster , You gonna need Kublet or what we call as a Comand line "Kubctl".<br>
 **Kubelet**
 - The Kubelet is the star of the show on every node. It’s the main Kubernetes agent, and it runs on every node in the cluster. In fact, it’s common to use the terms node and kubelet interchang eably,When you join a new node to a cluster, the process installs kubelet onto the node. The kubelet is then responsible for registering the node with the cluster.<br>
 **Kube-proxy :**
