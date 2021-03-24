@@ -40,14 +40,10 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
   :nerd_face: For Better Understanding + instaling minikube + use kubctl : https://www.youtube.com/watch?v=X48VuDVv0do
  
  ## what's Load Blancer
- ```
- → Load balancing is the process of efficiently distributing network traffic among multiple backend services, and is a critical strategy for maximizing scalability and availability.
- ```
+ - Load balancing is the process of efficiently distributing network traffic among multiple backend services, and is a critical strategy for maximizing scalability and availability.
 
  ## what's MetalB
- ```
- ->MetalLB is a great load balancer for a home Kubernetes cluster. It allows you to assign real IPs from your home network to services running in your cluster and access them from other hosts on your home network.
- ```
+ - MetalLB is a great load balancer for a home Kubernetes cluster. It allows you to assign real IPs from your home network to services running in your cluster and access them from other hosts on your home network.
 
 ## Ressources
 
