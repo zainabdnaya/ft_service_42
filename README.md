@@ -43,7 +43,12 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
  ```
  → Load balancing is the process of efficiently distributing network traffic among multiple backend services, and is a critical strategy for maximizing scalability and availability.
  ```
- 
+
+ ## what's MetalB
+ ```
+ ->MetalLB is a great load balancer for a home Kubernetes cluster. It allows you to assign real IPs from your home network to services running in your cluster and access them from other hosts on your home network.
+ ```
+
 ## Ressources
 
 ***Docker***
