@@ -6,24 +6,11 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:27:53 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/23 13:27:54 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/24 14:05:22 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FROM alpine:latest
-
-# RUN apk add --no-cache openssh \
-#     && sed 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' -i /etc/ssh/sshd_config \
-#     && echo 'root:0000' | chpasswd \
-#     && ssh-keygen -f /etc/ssh/ssh_host_rsa_key -N '' -t rsa \
-#     && ssh-keygen -f /etc/ssh/ssh_host_dsa_key -N '' -t dsa \
-#     && echo "Port 30022" >> /etc/ssh/sshd_config \
-#     && mkdir -p /var/run/sshd
-
-# CMD ["/usr/sbin/sshd"]
-# CMD ["nginx","-g", "daemon off;"]
-
-# FROM alpine:latest
 
 RUN apk update 
 RUN apk add nginx
