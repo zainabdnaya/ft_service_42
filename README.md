@@ -25,9 +25,8 @@ Why we use Kubernetes :
 if u want to take ur local application and release it to ur Users yo use a Web Server,
 <br>
 - Deployment The process of  moving ur code  from ur computer (localhost) to  remote public host webserver) ( and it can be access for anyone request it )
-<br>
-# what is Docher ?! :thought_balloon:
-Minikude it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster)
+# what is Minikub ?! :thought_balloon:
+Minikube it'as one Node Cluster, whew the Master processes and Work processes work on the same Node (One Machine), like (Mini-Cluster)
 - It will create avirtual BOX on ur laptop.
 - Node Run in that  virtual Box <br>
 To Run  or to config that mini-cluster , You gonna need Kublet or what we call as a Comand line "Kubctl".
