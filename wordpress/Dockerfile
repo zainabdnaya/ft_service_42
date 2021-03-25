@@ -6,12 +6,12 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:28:00 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/23 13:29:09 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/24 18:22:36 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-FROM alpine:latest
+FROM alpine:3.12
 
 RUN apk update 
 RUN apk add nginx
@@ -23,6 +23,7 @@ RUN mkdir /www
 RUN chown -R www:www /www
 COPY srcs/nginx.conf /etc/nginx/nginx.conf
 COPY srcs/setup_wdp.sh .
+EXPOSE 5050
 RUN  cd /www &&\
     wget http://wordpress.org/latest.tar.gz &&\
     tar -xzvf latest.tar.gz &&\

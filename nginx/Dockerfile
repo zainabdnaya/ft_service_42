@@ -6,11 +6,11 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:27:53 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/24 14:05:22 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/24 18:03:53 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-FROM alpine:latest
+FROM alpine:3.12
 
 RUN apk update 
 RUN apk add nginx

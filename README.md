@@ -39,7 +39,7 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
  <br>
   :nerd_face: For Better Understanding + instaling minikube + use kubctl : https://www.youtube.com/watch?v=X48VuDVv0do
  
- ## what's Load Blancer
+ ## what's Load Blancer :question:
  - Load balancing is the process of efficiently distributing network traffic among multiple backend services, and is a critical strategy for maximizing scalability and availability.
 
  ## what's MetalB
@@ -56,25 +56,17 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
   <br>
   
 ***Nginx***
-
      -https://wiki.alpinelinux.org/wiki/Nginx#Configuration
      -https://forhjy.medium.com/42-ft-services-install-nginx-with-kubernetes-fd22a5fcb062
-      
-  <br>
-  
+        
 ***SSL***
-
      -https://codingwithmanny.medium.com/configure-self-signed-ssl-for-nginx-docker-from-a-scratch-7c2bcd5478c6
       
-   <br>
-
 ***Minikube*** 
-
     -https://sensu.io/blog/minikube-tutorial#:~:text=Minikube%20is%20a%20utility%20you,installation%20of%20full%2Dblown%20K8s
     -https://upcloud.com/community/tutorials/deploy-kubernetes-dashboard
 
-   ***Kubernetes***
-
+   ***Kubernetes**
      -https://www.youtube.com/watch?v=X48VuDVv0do
      In French ==>https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
    
