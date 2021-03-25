@@ -6,7 +6,7 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:28:00 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/24 18:22:36 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/25 13:59:40 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ RUN adduser -D -g 'www' www
 RUN mkdir /www
 RUN chown -R www:www /www
 COPY srcs/nginx.conf /etc/nginx/nginx.conf
-COPY srcs/setup_wdp.sh .
+COPY srcs/setup_wdp.sh . 
 EXPOSE 5050
 RUN  cd /www &&\
     wget http://wordpress.org/latest.tar.gz &&\

@@ -42,11 +42,18 @@ Minikube it'as one Node Cluster, whew the Master processes and Work processes wo
  <br>
   :nerd_face: For Better Understanding + instaling minikube + use kubctl : https://www.youtube.com/watch?v=X48VuDVv0do
  
- ## what's Load Blancer :question:
+ ## what's Load Blancer  :libra: 
  - Load balancing is the process of efficiently distributing network traffic among multiple backend services, and is a critical strategy for maximizing scalability and availability.
 
- ## what's MetalB
+ ## what's MetalB :question:
  - MetalLB is a great load balancer for a home Kubernetes cluster. It allows you to assign real IPs from your home network to services running in your cluster and access them from other hosts on your home network.
+## What is Grafana & What Is It Used For?
+Grafana is an open source solution for running data analytics, pulling up metrics that make sense of the massive amount of data & to monitor our apps with the help of cool customizable dashboards.
+Grafana connects with every possible data source, commonly referred to as databases such as Graphite (Graphite, again, is a monitoring tool), Prometheus, Influx DB (InfluxDB is a time series database designed to handle high write and query loads.), ElasticSearch, MySQL, PostgreSQL etc.
+
+<a href="https://ibb.co/nzFZPjb"><img src="https://i.ibb.co/qkvXJpd/Screen-Shot-2021-03-25-at-2-44-11-PM.png" alt="Screen-Shot-2021-03-25-at-2-44-11-PM" border="0"></a>
+
+
 
 ## Ressources
 
