@@ -6,14 +6,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: wordpress
+      app: wordpresss
   template:
     metadata:
       labels:
-        app: wordpress
+        app: wordpresss
     spec:
       containers:
       - name:  wordpress
-        image:  wordpress
+        image:  wordpress:service
         ports:
         - containerPort: 5050
