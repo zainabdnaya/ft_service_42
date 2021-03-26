@@ -6,7 +6,7 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:28:00 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/25 18:18:42 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/26 16:55:03 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,6 @@ EXPOSE 5050
 RUN  cd /www &&\
     wget http://wordpress.org/latest.tar.gz &&\
     tar -xzvf latest.tar.gz &&\
-    rm latest.tar.gz
-RUN chmod -R 777 /www
+    rm latest.tar.gz wordpress/wp-config-sample.php
+COPY ./srcs/wp-config.php  /www/wordpress/
 CMD supervisord -c /etc/supervisord.conf
