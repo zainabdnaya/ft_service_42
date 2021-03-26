@@ -79,9 +79,11 @@ Grafana connects with every possible data source, commonly referred to as databa
     -https://sensu.io/blog/minikube-tutorial#:~:text=Minikube%20is%20a%20utility%20you,installation%20of%20full%2Dblown%20K8s
     -https://upcloud.com/community/tutorials/deploy-kubernetes-dashboard
 
-   ***Kubernetes**
+**Kubernetes**
 
      -https://www.youtube.com/watch?v=X48VuDVv0do
      In French ==>https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
    
+**MySql**
 
+     -https://docs.oracle.com/en/java/java-components/advanced-management-console/2.20/install-guide/mysql-database-installation-and-configuration-advanced-management-console.html#GUID-2B24F7E4-A00C-463F-8666-10D3D1097061
