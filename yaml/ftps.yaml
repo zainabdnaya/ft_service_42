@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ftps-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ftpsl
+  template:
+    metadata:
+      labels:
+        app: ftpsl
+    spec:
+      containers:
+      - name: ftps
+        image: ftps:service
+        ports:
+        - containerPort: 21
+        - containerPort: 30000

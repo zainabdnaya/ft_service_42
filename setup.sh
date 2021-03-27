@@ -8,6 +8,7 @@ docker build -t nginx:service nginx/
 docker build -t phpmyadmin:service phpmyadmin/
 docker build -t wordpress:service wordpress/
 docker build -t mysql:service ./mysql
+docker build -t ftps:service ./ftps
 echo " ============ KUBERNETES ============ "
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.5/manifests/namespace.yaml
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.5/manifests/metallb.yaml
@@ -21,3 +22,6 @@ kubectl apply -f yaml/wordpress.yaml
 kubectl apply -f yaml/wordpress_service.yaml
 kubectl apply -f yaml/mysql.yaml
 kubectl apply -f yaml/mysql_service.yaml
+kubectl apply -f yaml/ftps.yaml
+kubectl apply -f yaml/ftps_service.yaml
+
