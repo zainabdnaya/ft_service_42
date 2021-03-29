@@ -6,19 +6,19 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:27:53 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/27 14:59:56 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/29 15:56:28 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FROM alpine:3.12
-
+RUN echo http://nl.alpinelinux.org/alpine/edge/community >> etc/apk/repositories
 EXPOSE 80
 EXPOSE 443
 
 RUN apk update 
 RUN apk add nginx && \
     mkdir /run/nginx
-RUN apk add openrc supervisor 
+RUN apk add openrc supervisor telegraf
 RUN adduser -D -g 'www' www
 RUN mkdir /www
 RUN chown -R www:www /www
@@ -29,5 +29,6 @@ RUN openssl req -x509 -nodes -days 365 -subj "/C=CA/ST=QC/O=Company, Inc./CN=myd
 COPY srcs/nginx.conf /etc/nginx/nginx.conf
 COPY srcs/index.html /www/index.html
 COPY ./srcs/supervisord.conf /etc/
+COPY ./srcs/telegraf.conf /etc/telegraf.conf
 
 CMD supervisord -c /etc/supervisord.conf

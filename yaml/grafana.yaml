@@ -1,20 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ftps
+  name: grafana
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ftpsl
+      app: grafanaa
   template:
     metadata:
       labels:
-        app: ftpsl
+        app: grafanaa
     spec:
       containers:
-      - name: ftps
-        image: ftps:service
+      - name: grafana
+        image: grafana:service
         ports:
-        - containerPort: 21
-        - containerPort: 30000
+        - containerPort: 3000

@@ -5,31 +5,23 @@
 #                                                     +:+ +:+         +:+      #
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/03/23 13:28:00 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/29 16:05:07 by zdnaya           ###   ########.fr        #
+#    Created: 2021/03/29 10:39:58 by zdnaya            #+#    #+#              #
+#    Updated: 2021/03/29 18:43:49 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-
 FROM alpine:3.12
 RUN echo http://nl.alpinelinux.org/alpine/edge/community >> etc/apk/repositories
-RUN apk update 
-RUN apk add nginx && \
-    mkdir /run/nginx
-RUN apk add openrc supervisor telegraf
-RUN apk add php7-common php7-session php7-iconv php7-json php7-gd php7-curl php7-xml php7-mysqli php7-imap php7-cgi fcgi php7-pdo php7-pdo_mysql php7-soap php7-xmlrpc php7-posix php7-mcrypt php7-gettext php7-ldap php7-ctype php7-dom
-RUN apk add php7-fpm
-RUN adduser -D -g 'www' www
-RUN mkdir /www
-RUN chown -R www:www /www
-COPY srcs/nginx.conf /etc/nginx/nginx.conf
+RUN apk update
+RUN wget https://dl.grafana.com/oss/release/grafana-7.3.10.linux-amd64.tar.gz
+RUN tar -zxvf grafana-7.3.10.linux-amd64.tar.gz
+RUN apk add libc6-compat supervisor telegraf
+WORKDIR /grafana-7.3.10
+EXPOSE 3000
 COPY ./srcs/supervisord.conf /etc/
-EXPOSE 5050
-RUN  cd /www &&\
-    wget http://wordpress.org/latest.tar.gz &&\
-    tar -xzvf latest.tar.gz &&\
-    rm latest.tar.gz wordpress/wp-config-sample.php
-COPY ./srcs/wp-config.php  /www/wordpress/
+COPY ./srcs/stop.sh /tmp/
+RUN chmod +x /tmp/stop.sh
+COPY ./srcs/sample.yaml /grafana-7.3.10/conf/provisioning/datasources
 COPY ./srcs/telegraf.conf /etc/telegraf.conf
-
+COPY ./srcs/grafana.db /grafana-7.3.10/data/
 CMD supervisord -c /etc/supervisord.conf
