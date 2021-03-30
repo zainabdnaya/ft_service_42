@@ -52,7 +52,7 @@ Grafana connects with every possible data source, commonly referred to as databa
 
  ## what's Telegraf :mailbox_with_mail:
 
-Telegraf is an agent for collecting, processing, aggregating, and writing metrics.
+Telegraf is an agent for collecting, processing, aggregating, and writing metrics. :electric_plug:	
 Design goals are to have a minimal memory footprint with a plugin system so that developers in the community can easily add support for collecting metrics.
 Collect and send all kinds of data:
 <br>

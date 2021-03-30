@@ -6,11 +6,12 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/23 13:27:53 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/30 10:21:07 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/30 12:48:15 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FROM alpine:3.12
+
 RUN echo http://nl.alpinelinux.org/alpine/edge/community >> etc/apk/repositories
 EXPOSE 80
 EXPOSE 443
