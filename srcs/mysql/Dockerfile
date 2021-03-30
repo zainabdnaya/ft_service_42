@@ -6,7 +6,7 @@
 #    By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/26 12:53:45 by zdnaya            #+#    #+#              #
-#    Updated: 2021/03/30 12:46:52 by zdnaya           ###   ########.fr        #
+#    Updated: 2021/03/30 15:13:46 by zdnaya           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,6 @@ RUN apk update
 RUN apk add openrc supervisor telegraf
 
 COPY ./srcs/supervisord.conf /etc/
-RUN chmod -R  777 /lib/rc/sh
 RUN apk add mysql mysql-client
 COPY ./srcs/telegraf.conf /etc/telegraf.conf
 COPY ./srcs/stop.sh /tmp/
