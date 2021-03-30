@@ -84,3 +84,7 @@ Grafana connects with every possible data source, commonly referred to as databa
 **MySql**
 
      -https://docs.oracle.com/en/java/java-components/advanced-management-console/2.20/install-guide/mysql-database-installation-and-configuration-advanced-management-console.html#GUID-2B24F7E4-A00C-463F-8666-10D3D1097061
+
+
+**To test:**
+RUN : ./setup.sh
