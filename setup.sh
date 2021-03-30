@@ -11,6 +11,7 @@ docker build -t mysql:service ./srcs/mysql/
 docker build -t ftps:service ./srcs/ftps/
 docker build -t grafana:service ./srcs/grafana/
 docker build -t influxdb:service ./srcs/influxdb/
+
 echo " ============ KUBERNETES ============ "
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.5/manifests/namespace.yaml
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.5/manifests/metallb.yaml

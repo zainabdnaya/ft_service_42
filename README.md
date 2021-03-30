@@ -50,6 +50,15 @@ Grafana connects with every possible data source, commonly referred to as databa
 
 <a href="https://ibb.co/nzFZPjb"><img src="https://i.ibb.co/qkvXJpd/Screen-Shot-2021-03-25-at-2-44-11-PM.png" alt="Screen-Shot-2021-03-25-at-2-44-11-PM" border="0"></a>
 
+ ## what's Telegraf :mailbox_with_mail:
+
+Telegraf is an agent for collecting, processing, aggregating, and writing metrics.
+Design goals are to have a minimal memory footprint with a plugin system so that developers in the community can easily add support for collecting metrics.
+Collect and send all kinds of data:
+<br>
+Database: Connect to datasources like MongoDB, MySQL, Redis, and others to collect and send metrics.
+Systems: Collect metrics from your modern stack of cloud platforms, containers, and orchestrators.
+IoT sensors: Collect critical stateful data (pressure levels, temp levels, etc.) from IoT sensors and devices.
 
 
 ## Ressources

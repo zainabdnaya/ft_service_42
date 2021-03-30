@@ -1,4 +1,5 @@
 #!/bin/sh
+
 printf "READY\n";
 
 while read line; do
