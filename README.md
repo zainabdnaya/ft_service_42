@@ -87,4 +87,5 @@ Grafana connects with every possible data source, commonly referred to as databa
 
 
 **To test:**
-RUN : ./setup.sh
+
+     -RUN : ./setup.sh
